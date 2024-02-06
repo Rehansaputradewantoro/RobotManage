@@ -34,7 +34,7 @@ class Config(object):
    URL = None
    SPAMWATCH_API = os.getenv("SPAMWATCH_API", None)  # go to support.spamwat.ch to get key
    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-   MONGO_DB_URI = os.getenv("MONGO_DB_URI")  # Required for any database modulesz
+   MONGO_DB_URI = os.getenv("MONGO_DB_URI")  # Required for any database modules
    MONGO_DB = "Key"
    MONGO_PORT = "27017"
    ARQ_API = os.getenv("ARQ_API")  # Get this from @ARQRobot
