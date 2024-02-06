@@ -97,9 +97,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/Keysupport1"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/ZoneDangerSex"
         ),
-        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/Geninstore"
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/Revanstoreya"
         ),
     ],
     [
