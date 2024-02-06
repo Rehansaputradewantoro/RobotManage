@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-✪ sᴀʏᴀ ᴋᴇʏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://telegra.ph//file/225a8779f15daf89036cb.jpg)
+✪ sᴀʏᴀ ʀᴇᴠᴀɴ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://telegra.ph//file/ce1294e2c81d09b635736.jpg)
 ────────────────────────
 ◈ *ᴜᴘᴛɪᴍᴇ:* `{}`
 ◈ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
@@ -104,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴏᴡɴᴇʀ", url="t.me/Pusingeaak"
+            text="ᴏᴡɴᴇʀ", url="t.me/Revans505"
         ),
     ],
     [
@@ -120,7 +120,7 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-Key_IMG = "https://telegra.ph//file/225a8779f15daf89036cb.jpg"
+Key_IMG = "https://telegra.ph//file/ce1294e2c81d09b635736.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @disiniKey \
@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "**ʜᴀʟʟᴏ ᴋᴇʏ ʀᴏʙᴏᴛ ʜɪᴅᴜᴘ ᴋᴇᴍʙᴀʟɪ.**",
+                "**ʜᴀʟʟᴏ ᴢᴏɴᴇᴅᴀɴɢᴇʀ ʀᴏʙᴏᴛ ʜɪᴅᴜᴘ ᴋᴇᴍʙᴀʟɪ.**",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
