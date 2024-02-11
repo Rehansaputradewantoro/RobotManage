@@ -268,7 +268,7 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"╔═━「<b> Hasil Pencarian:</b> 」\n"
-        f"?? ID: <code>{user.id}</code>\n"
+        f" ID: <code>{user.id}</code>\n"
         f"👨‍💼 First Name: {html.escape(user.first_name)}"
     )
 
@@ -329,7 +329,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1224143544:
-         text += "\n\nOwner Of A Bot. King Of @Rizzvbss . "
+         text += "\n\nOwner Of A Bot. King Of @Revans505 . "
          disaster_level_present = True
 
     try:
@@ -366,9 +366,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Channel", url="https://t.me/Html12text"),
+                                "Channel", url="https://t.me/Revanstoreya"),
                             InlineKeyboardButton(
-                                "Group", url="https://t.me/kazusupportgrp")
+                                "Group", url="https://t.me/ZoneDangerSex")
                         ],
                     ]
                 ),
@@ -384,9 +384,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Channel", url="https://t.me/Html12text"),
+                                "Channel", url="https://t.me/Revanstoreya"),
                             InlineKeyboardButton(
-                                "Group", url="https://t.me/kazusupportgrp")
+                                "Group", url="https://t.me/ZoneDangerSex")
                         ],
                     ]
                 ),
@@ -458,7 +458,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "🤖 <b>Stats For <a href='https://t.me/KynanUserbot'>ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "🤖 <b>Stats For <a href='https://t.me/ZoneDangerSexBot'>Zᴏɴᴇ ᴅᴀɴɢᴇʀ sᴇx ꭙ ꝛᴏʙᴏᴛ</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
